@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ada-py
-  version: "0.67.1"
+  version: "0.68.0"
   python_min: "3.11"
 
 recipe:
@@ -11,7 +11,7 @@ recipe:
 
 source:
   url: https://github.com/Krande/adapy/archive/v${{ version }}.tar.gz
-  sha256: 81d8d73a8787bb15cd7776e47205229e28c7959b1aa9fbe288f34a64675eabac
+  sha256: f882dd279860734fd27c95fd252a0836d302eaa3be1455c39ffe31b6b8f5e820
 
 build:
   number: 0
